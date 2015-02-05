@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+  <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:src="@mipmap/ic_launcher"
+      android:adjustViewBounds="true"
+      android:scaleType="centerCrop"
+      android:id="@+id/picture_image"
+      />
+
+  <!--Graphic, Caption, Username-->
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/picture_image"
+      android:id="@+id/userinfo"
+      android:layout_marginTop="5dp"
+      android:layout_marginLeft="5dp"
+      android:layout_marginRight="5dp"
+      android:orientation="horizontal"
+      >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:text="user123"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=", "
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/likes_count"
+        android:text="11"
+        />
+   </LinearLayout>
+  <TextView
+      android:layout_below="@+id/userinfo"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="5dp"
+      android:layout_marginRight="5dp"
+      android:layout_marginBottom="20dp"
+      android:id="@+id/caption"
+      android:text="this is the caption"
+      />
+
+</RelativeLayout>
