@@ -12,7 +12,7 @@ Completed user stories:
 
 Walkthrough of all user stories:
 
-![Video Walkthrough]()
+![Video Walkthrough](https://cloud.githubusercontent.com/assets/4535/6057192/22ec91f6-acd0-11e4-9071-cf0757bde934.gif)
 
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
